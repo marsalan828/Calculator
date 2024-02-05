@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+.heading {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.row input {
+    margin: 10px;
+    padding: 11px 19px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.button {
+    display: flex;
+    padding: 12px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+}
